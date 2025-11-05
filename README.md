@@ -21,3 +21,11 @@ venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -r requirements.txt
+
+
+
+## **7️⃣ Notes / Platform Compatibility**
+
+```markdown
+## Notes
+- TensorRT is **only supported on Linux/Windows**.
