@@ -24,8 +24,8 @@ pip install -r requirements.txt
 
 
 
-## **7️⃣ Notes / Platform Compatibility**
+## ** Note **
 
-```markdown
+
 ## Notes
 - TensorRT is **only supported on Linux/Windows**.
