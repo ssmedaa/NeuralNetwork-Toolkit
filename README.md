@@ -8,27 +8,19 @@ A Python toolkit for dynamic quantization and pruning of neural networks to opti
 - TensorRT GPU inference for accelerated performance
 - Benchmarking utilities for latency and throughput
 
-##   Project Structure
-NeuralNetwork-Toolkit/
-├── data/                         
-│   ├── input/sample_input.npy
-│   ├── output/sample_output.npy
-│   ├── sample_data.py
-├── examples/
-│   └── compress_and_run.py     
-├── src/
-│   ├── compression/
-│   │   ├── quantization.py
-│   │   ├── pruning.py
-│   ├── inference/
-│   │  └──  tensorrt_inference.py
-│   └── utils/
-│       └── benchmark.py
-├── tests/       
-│       ├── test_pruning.py
-│       ├── test_quantization.py
-├── requirements.txt
-└── README.md
+ ##   Project Structure
+ 
+data/ – sample input and output data
+examples/ – (compress_and_run.py)
+
+src/ – main source code
+  - compression/ – quantization and pruning
+  - inference/ – TensorRT and model inference
+  - utils/ – benchmarking
+
+tests/ – test scripts
+requirements.txt – dependencies
+README.md – project documentation
 
 ## Installation
 ```bash
@@ -46,8 +38,5 @@ pip install -r requirements.txt
 
 
 
-## ** Note **
-
-
-## Notes
+## Note
 - TensorRT is **only supported on Linux/Windows**.
